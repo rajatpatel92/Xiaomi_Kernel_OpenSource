@@ -319,6 +319,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.sw_decrypt_mcast_mgmt = true,
 		.hw_ops = &wcn3990_ops,
 		.decap_align_bytes = 1,
+		.decap_align_bytes = 4,
 	},
 };
 
